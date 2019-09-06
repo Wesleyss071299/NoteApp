@@ -3,8 +3,9 @@ import {
   Text, 
   View,
   StyleSheet,
+  Image ,
   TouchableOpacity, 
-  Image 
+
 } from 'react-native';
 
 export default class HelloWorldApp extends Component {
