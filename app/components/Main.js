@@ -73,7 +73,7 @@ export default class HelloWorldApp extends Component {
         'note': this.state.noteText
       });
       this.setState({noteArray: this.state.noteArray})
-      {/*this.setState({noteText:''}); */}
+      this.setState({noteText:''});
 
     }
   }
@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
     flex:1,
   },
   header: {
-    backgroundColor: "#E91E63",
+    backgroundColor: "#E91E65",
     alignItems: "center",
     justifyContent: "center",
     borderBottomWidth: 10,
